@@ -17,5 +17,21 @@
                 </li>
             </ul>
         </div>
+
+
+
+
     </div>
+
+    <!-- Example split danger button -->
+    <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Mon compte
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ route('login') }}">Login</a></li>
+            <li><a class="dropdown-item" href="{{ route('register') }}">Register</a></li>
+        </ul>
+    </div>
+
 </nav>
