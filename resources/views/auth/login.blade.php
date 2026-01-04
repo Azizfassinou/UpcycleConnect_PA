@@ -33,7 +33,7 @@
 
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password"
-                        class="form-control mb-3@error('password') is-invalid
+                        class="form-control mb-3 @error('password') is-invalid
 
                     @enderror" required
                         autocomplete="currentpassword" autocomplete="">
@@ -50,8 +50,8 @@
                         </div>
                     </div>
                     <div class="d-grid gap-2"><button class="btn btn-primary" type="submit">Sign in</button></div>
-                    <p class="text-center text-muted mt-5">Not Register yet ? <a href="{{ route('register') }}"
-                            class="">Create an account</a></p>
+                    <p class="text-center text-muted mt-5">Not Register yet ? <a href="{{ route('register') }}">Create an
+                            account</a></p>
                 </form>
             </div>
         </div>
