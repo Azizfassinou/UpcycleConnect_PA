@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Kebab Zoca Standard",
+    "description": "L'incontournable du campus. Viande grillée, sauce secrète, frites craquantes et crudités fraîches.",
+    "price": "1.500 FCFA",
+    "category": "Kebab",
+    "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander un Kebab Zoca Standard."
+  },
+  {
+    "id": 2,
+    "name": "Kebab Full Campus XL",
+    "description": "Double dose de viande, œuf au plat, fromage fondu et sauce samouraï. Pour les grosses faims.",
+    "price": "2.500 FCFA",
+    "category": "Kebab",
+    "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander un Kebab Full Campus XL."
+  },
+  {
+    "id": 3,
+    "name": "K-Box Elite",
+    "description": "Tout le plaisir du kebab sans le pain. Lit de frites, viande généreuse et mix de salades.",
+    "price": "2.000 FCFA",
+    "category": "Box",
+    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander une K-Box Elite."
+  },
+  {
+    "id": 4,
+    "name": "Yaourt Maison Onctueux",
+    "description": "Notre célèbre yaourt brassé, parfait pour adoucir le piment. Recette grand-mère.",
+    "price": "500 FCFA",
+    "category": "Boissons",
+    "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander un Yaourt Maison."
+  },
+  {
+    "id": 5,
+    "name": "Jus d'Ananas Local",
+    "description": "Ananas Pain de Sucre pressé à froid. 100% naturel, sans sucre ajouté.",
+    "price": "1.000 FCFA",
+    "category": "Boissons",
+    "image": "https://images.unsplash.com/photo-1525385133336-247b670574c3?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander un Jus d'Ananas."
+  },
+  {
+    "id": 6,
+    "name": "Le Double Mix",
+    "description": "Mix Poulet & Bœuf avec double fromage et oignons caramélisés. Une explosion de saveurs.",
+    "price": "3.000 FCFA",
+    "category": "Kebab",
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&q=80&w=800",
+    "whatsapp_msg": "Salut QDP ! Je souhaite commander un Double Mix."
+  }
+]
