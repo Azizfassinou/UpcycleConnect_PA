@@ -153,16 +153,33 @@ type RegisterVolunteerInput struct {
 }
 ```
 
-### 3️⃣ Étape 3 (Frontend - Formulaire Vue)
+### 3️⃣ Étape 3 (Frontend - Formulaire & State Vue.js)
+
+1. Dans le `<script>` de `StaffDashboard.vue` / `AdminDashboard.vue`, ajouter `vehicle_type: ''` dans l'objet `newVolunteer` de `data()` :
+```javascript
+newVolunteer: { 
+  firstname: '', 
+  lastname: '', 
+  email: '', 
+  password: '', 
+  zone_area: '', 
+  availability: '', 
+  vehicle: false,
+  vehicle_type: '' // 👈 RENSEIGNER ICI
+}
+```
+
+2. Dans le `<template>`, utiliser `newVolunteer.vehicle_type` (et NON `form.vehicle_type`) :
 ```html
 <div class="form-group">
-  <label>Type de Véhicule</label>
-  <select v-model="form.vehicle_type">
+  <label>Type de véhicule</label>
+  <select v-model="newVolunteer.vehicle_type">
     <option value="voiture">Voiture</option>
     <option value="camionnette">Camionnette</option>
     <option value="velo">Vélo / Cargo</option>
   </select>
 </div>
+```
 ```
 
 ---
